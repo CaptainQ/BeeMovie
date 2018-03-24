@@ -12,13 +12,13 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "beefy nacho despacito hater") {
+    if (message.author.username == "T I M E") {
         message.reply("Here is a cooki", {files: ["https://images-gmi-pmc.edge-generalmills.com/8012d5ca-eb39-4901-91a0-0bdddec883b8.jpg"]});
     }
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "La Potato, the eternal") {
+    if (message.author.username == "La Potato") {
         message.reply("BUP", {files: ["https://i.ytimg.com/vi/tkYAdJHN5X4/maxresdefault.jpg"]});
     }
 });
