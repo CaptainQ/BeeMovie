@@ -12,9 +12,8 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "McCaffeteria") {
-        message.reply("test");
-        message.reply("test message", {files: ["https://cdn0.iconfinder.com/data/icons/popular-files-formats/154/tmp-512.png"]});
+    if (message.author.username == "beefy nacho despacito hater") {
+        message.reply("Here is a cooki", {files: ["https://images-gmi-pmc.edge-generalmills.com/8012d5ca-eb39-4901-91a0-0bdddec883b8.jpg"]});
     }
 });
 
