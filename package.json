@@ -5,7 +5,7 @@
   "main": "beebot.js",
   "scripts": {
     "start": "node beebot.js"
-  }
+  },
   "dependencies": {
     "discord.js": "^11.3.2"
   }
