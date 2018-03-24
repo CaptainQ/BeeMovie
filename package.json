@@ -1,0 +1,12 @@
+{
+  "name": "Test",
+  "description": "Test",
+  "version": "0.0.0",
+  "main"; "beebot.js",
+  "scripts": {
+    "start": "node beebot.js"
+  }
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
