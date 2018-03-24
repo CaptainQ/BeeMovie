@@ -17,4 +17,10 @@ client.on("message", (message) => {
     }
 });
 
+client.on("message", (message) => {
+    if (message.author.username == "La Potato, the eternal") {
+        message.reply("BUP", {files: ["https://i.ytimg.com/vi/tkYAdJHN5X4/maxresdefault.jpg"]});
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
