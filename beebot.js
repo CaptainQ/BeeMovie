@@ -11,4 +11,10 @@ client.on("message", (message) => {
     }
 });
 
+client.on("message", (message) => {
+    if (message.author.avatar == "3523") {
+        message.reply("test");
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
