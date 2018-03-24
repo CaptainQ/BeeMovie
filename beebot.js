@@ -6,11 +6,9 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-    var isBot = new Boolean(true);
-    isBot = message.author.bot();
-    if (isBot = false) {
-        message.channel.send("BUP");
+    if (message.content = 'ping') {
+        message.reply('BUP');
     }
 });
 
-client.login("NDI1ODgzOTI5ODI5MTc5Mzky.DZN7Gg.cRYfwvcLN7X6LkfBm1NwloJsjss");
+client.login(process.env.BOT_TOKEN);
