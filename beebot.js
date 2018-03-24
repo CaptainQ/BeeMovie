@@ -6,8 +6,8 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-    if (message.content = 'ping') {
-        message.reply('BUP');
+    if (message.content.startsWith("ping") {
+        message.reply("BUP");
     }
 });
 
