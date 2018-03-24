@@ -23,4 +23,11 @@ client.on("message", (message) => {
     }
 });
 
+client.on("message", (message) => {
+    var link = "https://testcreative.co.uk/wp-content/uploads/2017/10/Test-Logo-Circle-black-transparent.png";
+    if (message.author.username == "McCaffeteria") {
+        message.reply("Test message", {files: [link]});
+    }
+});
+
 client.login(process.env.BOT_TOKEN);
