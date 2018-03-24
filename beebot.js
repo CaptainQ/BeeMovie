@@ -18,12 +18,6 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "La Potato") {
-        message.reply("BUP", {files: ["https://i.ytimg.com/vi/tkYAdJHN5X4/maxresdefault.jpg"]});
-    }
-});
-
-client.on("message", (message) => {
     var link = "https://testcreative.co.uk/wp-content/uploads/2017/10/Test-Logo-Circle-black-transparent.png";
     if (message.author.username == "McCaffeteria") {
         message.reply("Test message", {files: [link]});
