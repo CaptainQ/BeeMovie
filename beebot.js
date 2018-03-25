@@ -16,8 +16,15 @@ client.on("message", (message) => {
 client.on("message", (message) => {
     var startIndex = 0;
     var endIndex = 0;
+    var currentIndex = 0;
+    
     if (message.content.includes("Bee Movie") == true) {
         message.channel.send("Bee Test");
+        currentIndex = bScript.indexOf(" ", startIndex);
+        startIndex = currentIndex;
+        currentIndex = bScript.indexOf(" ", startIndex + 2);
+        endIndex = currentIndex;
+        message.channel.send(bScript.slice(startIndex + 1, endIndex - 1));
     }
 });
 
