@@ -28,6 +28,7 @@ client.on("message", (message) => {
             endIndex = currentIndex;
             message.channel.send(bScript.slice(startIndex + 1, endIndex));
             startIndex = endIndex;
+            setTimeout(function(), 3000);
         }
     }
 });
