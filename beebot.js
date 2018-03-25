@@ -14,12 +14,6 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "T I M E") {
-        message.reply("Here is a cooki", {files: ["https://images-gmi-pmc.edge-generalmills.com/8012d5ca-eb39-4901-91a0-0bdddec883b8.jpg"]});
-    }
-});
-
-client.on("message", (message) => {
     var startIndex = 0;
     var endIndex = 0;
     if (message.content.includes("Bee Movie") == true) {
