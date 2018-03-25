@@ -27,8 +27,7 @@ client.on("message", (message) => {
             currentIndex = bScript.indexOf(" ", startIndex + 2);
             endIndex = currentIndex;
             message.channel.send(bScript.slice(startIndex + 1, endIndex));
-            startIndex = endIndex;
-            setTimeout(function(), 3000);
+            var temp = setTimeout(function(){startIndex = endIndex}, 3000);
         }
     }
 });
