@@ -21,13 +21,13 @@ client.on("message", (message) => {
     if (message.content.includes("Bee Movie") == true) {
         message.channel.send("Bee Test");
         
-        while (endIndex < 100) {
+        while (endIndex < bScript.length) {
             currentIndex = bScript.indexOf(" ", startIndex);
             startIndex = currentIndex;
             currentIndex = bScript.indexOf(" ", startIndex + 2);
             endIndex = currentIndex;
             message.channel.send(bScript.slice(startIndex + 1, endIndex));
-            var temp = setTimeout(function(){startIndex = endIndex}, 3000);
+            startIndex = endIndex;
         }
     }
 });
