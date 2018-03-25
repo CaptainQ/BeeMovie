@@ -19,7 +19,9 @@ client.on("message", (message) => {
     var currentIndex = 0;
     
     if (message.content.includes("Bee Movie") == true) {
-        while (endIndex < 10) {
+        message.channel.send("Bee Test");
+        
+        while (endIndex < 46869) {
             currentIndex = bScript.indexOf(" ", startIndex);
             startIndex = currentIndex;
             currentIndex = bScript.indexOf(" ", startIndex + 2);
