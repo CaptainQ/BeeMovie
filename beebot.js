@@ -17,7 +17,10 @@ client.on("message", (message) => {
     var startIndex = 0;
     var endIndex = 0;
     if (message.content.includes("Bee Movie") == true) {
-        client.sendMessage("test message");
+        client.sendMessage({
+            to: bot-comands,
+            message: "Bee Test"
+        });
     }
 });
 
