@@ -14,7 +14,7 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "Lao-G forever bad boy") {
+    if (message.author.username.includes("Lao-G") == true {
         message.reply("Watch JoJo in order, you fraud");
     }
 })
