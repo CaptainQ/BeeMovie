@@ -17,9 +17,9 @@ client.on("message", (message) => {
 
 client.on("message", (message) => {
     if (message.author.username == "Lao-G PERV/ROTTEN") {
-        var insultLength = insults.length;
-        var randomInsult = Math.floor(Math.random() * insultLength);
-        message.reply(insults[randomInsult]);
+        var inLength = insults.length;
+        var rng = Math.floor(Math.random() * inLength);
+        message.reply(insults[rng]);
     }
 });
 
