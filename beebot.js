@@ -15,14 +15,16 @@ client.on("message", (message) => {
     }
 });
 
+/*
 client.on("message", (message) => {
     if (message.author.username == "McCaffeteria") {
         var inLength = insults.length;
-        var rng = Math.floor(Math.random() * 4);
+        var rng = Math.floor(Math.random() * inLength);
         var msg = insults[rng];
         message.reply(msg);
     }
 });
+*/
 
 client.on("message", (message) => {
     var startIndex = 0;
