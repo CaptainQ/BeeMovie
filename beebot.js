@@ -14,7 +14,7 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.avatar == "3523") {
+    if (message.author.avatar == "McCaffeteria") {
         message.reply("This is a test");
     }
 })
