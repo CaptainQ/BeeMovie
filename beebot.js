@@ -14,7 +14,7 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "Lao-G PERV/ROTTEN" {
+    if (message.author.username == "Lao-G PERV/ROTTEN") {
         message.reply("Watch JoJo in order, you fraud");
     }
 });
