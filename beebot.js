@@ -16,9 +16,9 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "Lao-G PERV/ROTTEN") {
+    if (message.author.username == "McCaffeteria") {
         var inLength = insults.length;
-        var rng = Math.floor(Math.random() * inLength);
+        var rng = Math.floor(Math.random() * 4);
         var msg = insults[rng];
         message.reply(msg);
     }
