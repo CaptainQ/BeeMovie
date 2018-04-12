@@ -14,8 +14,8 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
-    if (message.author.username == "McCaffeteria") {
-        message.reply("This is a test");
+    if (message.author.username == "Lao-G forever bad boy") {
+        message.reply("Watch JoJo in order, you fraud");
     }
 })
 
