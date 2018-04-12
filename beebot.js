@@ -17,7 +17,7 @@ client.on("message", (message) => {
     if (message.author.username == "Lao-G PERV/ROTTEN" {
         message.reply("Watch JoJo in order, you fraud");
     }
-})
+});
 
 client.on("message", (message) => {
     var startIndex = 0;
