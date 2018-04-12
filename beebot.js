@@ -14,6 +14,12 @@ client.on("message", (message) => {
 });
 
 client.on("message", (message) => {
+    if (message.author.avatar == "3523") {
+        message.reply("This is a test");
+    }
+})
+
+client.on("message", (message) => {
     var startIndex = 0;
     var endIndex = 0;
     var currentIndex = 0;
