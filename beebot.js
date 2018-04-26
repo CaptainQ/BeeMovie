@@ -5,7 +5,7 @@ const bScript = " According to all known laws of aviation there is no way a 🅱
 
 const laoGInsults = ["Watch JoJo in order, you fraud", "Part 4 is garbage anyway", "Just give up and watch part 1", "OH MY GOOOOOOOOOOD", "I'MA FIX THAT SPAGHETT", "Go watch the parts with Dio in them", "Speed Waggon Dies", "Lisa Lisa is Ceasar's Daughter"];
 
-const iSOInsults = ["binch", "get bent", "@iso boi#", "Your twitter game is weak and thats why you have 2 followers", "@everyone", "You BEElong here with me", "You will never leave"];
+const iSOInsults = ["binch", "get bent", "@iso boi#", "Your twitter game is weak and thats why you have 2 followers", "@everyone", "You BEElong here with me", "You will never leave", "This is what happens when you missBEEhave", "Suffer", "Thats not very *RAD* of you"];
 
 client.on("ready", () => {
     console.log("IM SORRY");
