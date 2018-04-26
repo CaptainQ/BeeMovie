@@ -11,7 +11,7 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
     if (message.content.startsWith("ping") == true) {
-        message.reply("bUP");
+        message.reply("BUP");
     }
 });
 
@@ -41,4 +41,4 @@ client.on("message", (message) => {
     }
 });
 
-client.login(process.env.bOT_TOKEN);
+client.login(process.env.BOT_TOKEN);
